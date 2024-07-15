@@ -23,28 +23,28 @@
                         <div class='total-duration'>00:00</div>
                     </div>
                     <div class='slider-container'>
-                        <i class='fa-fa-volume-down'></i>
+                        <i class='fa fa-volume-down'></i>
                         <input type='range' min='1' max='100' volume=')' class='volume-slider' onchange='setVolume()' />
-                        <i class='fa-fa-volume-up'></i>
+                        <i class='fa fa-volume-up'></i>
                     </div>
                     <div class='buttons'>
                         <div class='random-track' onclick='randomTrack()'>
-                            <i class='fas-fa-random fa-2x' title='random'></i>
+                            <i class='fas fa-random fa-2x' title='random'></i>
                         </div>
                         <div class='prev-track' onclick='prevTrack()'>
-                            <i class='fa-fa-step-backward fa-2x'></i>
+                            <i class='fa fa-step-backward fa-2x'></i>
                         </div>
                         <div class='playpause-track' onclick='playpauseTrack()'>
-                            <i class='fa-fa-play-circle fa-5x'></i>
+                            <i class='fa fa-play-circle fa-5x'></i>
                         </div>
                         <div class='next-track' onclick='nextTrack()'>
-                            <i class='fa-fa-step-forward fa-2x'></i>
+                            <i class='fa fa-step-forward fa-2x'></i>
                         </div>
                         <div class='repeat-track' onclick='repeatTrack()'>
-                            <i class='fa-fa-repeat fa-2x' title='repeat'></i>
+                            <i class='fa fa-repeat fa-2x' title='repeat'></i>
                         </div>
                     </div>
-                    <div id=wave'>
+                    <div id=wave' class='loader'>
                         <span class='stroke'></span>
                         <span class='stroke'></span>
                         <span class='stroke'></span>
